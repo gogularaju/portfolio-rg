@@ -18,7 +18,7 @@ const Navigation = (props) => {
         <ul className="nav nav-pills">
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('aboutId')}><Link to="/">About Me</Link></li>
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('experienceId')}><Link to="/">Experience</Link></li>
-            <li className="nav nav-pills nav-link" onClick={() => scrollToEl('portfolioId')}><Link to="/">Portfolio</Link></li>
+            <li className="nav nav-pills nav-link" onClick={() => scrollToEl('portfolioId')}><Link to="/">Projects</Link></li>
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('footer')}><Link to="/">Contact</Link></li>
         </ul>
       </div>

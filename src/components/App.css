@@ -165,7 +165,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding-bottom: 128px;
+    padding-bottom: 64px;
 }
 
 @media screen and (max-width: 768px) {
@@ -185,6 +185,10 @@ body {
     .feed-container-about {
         padding: 16px;
     }
+}
+
+.feed-container-portfolio {
+    padding: 64px;
 }
 
 .about-container {
@@ -237,4 +241,26 @@ body {
   
   .card-container {
     padding: 2px 16px;
+  }
+
+  .card-container-project {
+    padding: 32px;
+  }
+
+  .project-url {
+    word-break: break-all;
+  }
+
+  .project-title {
+    color: white;
+    margin-bottom: -9px;
+    z-index: 3;
+    background-color: #158fe6;
+    width: 94px;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .project-top {
+    border-top: 12px #158fe6 solid;
   }

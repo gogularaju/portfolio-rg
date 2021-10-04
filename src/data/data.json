@@ -17,7 +17,16 @@
     "subtitle": "Analyst",
     "url": "https://www.dbs.com/default.page",
     "duration": "April 2019 - June 2021",
-    "description": "Front End Development | Web Developer | UI Developer"
+    "description": "Front End Development | Web Developer | UI Developer",
+    "projects": [{
+      "name": "DBS Internet Banking Taiwan",
+      "url": "https://internet-banking.dbs.com.tw/digitw/",
+      "description": "Building an internet banking application for DBS Taiwan. Working on UI Components, Micro Front Ends (MFE’s), which is to create reusable components using React Js with Typescript.Working on core features of banking like Fund Transfer, Payee Management, Foreign Exchange, Remittance, Scheduled/Recurring transfer, Loan Payment, Transaction History, Investments, Forgot Password , Forgot UID, Register, Price Alert, Account Summary"
+    },{
+      "name": "DBS Internet Banking Indonesia",
+      "url": "https://secure.id.dbsdigibank.com/cconboarding",
+      "description": "Building a joyful customer journey using credit card on-boarding for digital banking of Indonesia.Creating an Adobe Analytics framework to achieve digital marketing solutions and guiding the team on usage of the framework."
+    }]
   },
   {
     "id": 3,

@@ -1,12 +1,25 @@
 import React from 'react';
 
+const Projects = ({project}) => {
+  return (
+    <div>
+       <h4><b>{project.name}</b></h4> 
+       <p>{project.description}</p>
+       <p className="project-url"><a href={project.url} target="_blank">See Project</a></p>
+    </div>
+  );
+}
+
+
 const PortFolio = (item) => {
   return (
     <div className="row marketing">
-      <div class="card">
-        <div class="card-container">
-          <h4><b>{item.feed.subtitle}</b></h4> 
-          <p>{item.feed.duration}</p> 
+       <h4 className="project-title"><b>Projects</b></h4> 
+      <div class="card project-top">
+        <div className="card-container-project">
+          {item.feed && item.feed.projects && item.feed.projects.length && item.feed.projects.map((project) => 
+            <Projects key={project.name} project={project} />
+          )}
         </div>
       </div>
     </div>

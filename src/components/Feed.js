@@ -15,8 +15,8 @@ const Feed = (props) => {
       )}
       </div>
       <div className="feed-container-portfolio" id="portfolioId">
-      { props.feeds.map((item) => 
-        <PortFolio key={item.id} feed={item} />
+      {props.feeds.map((item) => 
+       item.projects && <PortFolio key={item.id} feed={item} />
       )}
       </div>
     </div>
