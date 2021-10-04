@@ -1,5 +1,5 @@
 import React from 'react';
-import gapLogo from '../gapLogo.png';
+import gapLogo from '../gapLogo.jpg';
 import dbsLogo from '../dbsLogo.png';
 import tcsLogo from '../tcsLogo.png';
 
@@ -13,7 +13,7 @@ const FeedItem = (item) => {
   return (
     <div className="row marketing experience-card">
       <div class="card">
-        <img src={images[item.feed.id]} alt={item.feed.title} width={item.feed.width} height={item.feed.height}/>
+        <img src={images[item.feed.id]} alt={item.feed.title}/>
         <div class="card-container">
           <h4><b>{item.feed.subtitle}</b></h4> 
           <p>{item.feed.duration}</p> 
