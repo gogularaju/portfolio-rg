@@ -11,7 +11,7 @@ const images = {
 
 const FeedItem = (item) => {
   return (
-    <div className="row marketing">
+    <div className="row marketing experience-card">
       <div class="card">
         <img src={images[item.feed.id]} alt={item.feed.title} width={item.feed.width} height={item.feed.height}/>
         <div class="card-container">

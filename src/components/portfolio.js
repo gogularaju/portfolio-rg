@@ -5,7 +5,7 @@ const Projects = ({project}) => {
     <div>
        <h4><b>{project.name}</b></h4> 
        <p>{project.description}</p>
-       <p className="project-url"><a href={project.url} target="_blank">See Project</a></p>
+       {project.url && <p className="project-url"><a href={project.url} target="_blank">See Project</a></p>}
     </div>
   );
 }
@@ -14,7 +14,7 @@ const Projects = ({project}) => {
 const PortFolio = (item) => {
   return (
     <div className="row marketing">
-       <h4 className="project-title"><b>Projects</b></h4> 
+       <h4 className="project-title"><b>{item.feed.abbr}</b></h4> 
       <div class="card project-top">
         <div className="card-container-project">
           {item.feed && item.feed.projects && item.feed.projects.length && item.feed.projects.map((project) => 

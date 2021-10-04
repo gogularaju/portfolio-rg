@@ -20,6 +20,7 @@ const Navigation = (props) => {
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('experienceId')}><Link to="/">Experience</Link></li>
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('portfolioId')}><Link to="/">Projects</Link></li>
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('footer')}><Link to="/">Contact</Link></li>
+            <li className="nav nav-pills nav-link" ><a href="https://drive.google.com/file/d/1Fm6QFibmaVbZRtDt1nzSQmw1OMTTOoch/view?usp=sharing" target="_blank">Resume</a></li>
         </ul>
       </div>
       <div className="profile-section">
