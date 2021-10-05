@@ -13,8 +13,8 @@ const Navigation = (props) => {
 
 
   return (
-    <div className="header">
-       <div className="nav-section">
+    <div className="header" id="header">
+       <div className="nav-section" id="nav-section">
         <ul className="nav nav-pills">
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('aboutId')}><Link to="/">About Me</Link></li>
             <li className="nav nav-pills nav-link" onClick={() => scrollToEl('experienceId')}><Link to="/">Experience</Link></li>
@@ -23,9 +23,9 @@ const Navigation = (props) => {
             <li className="nav nav-pills nav-link" ><a href="https://drive.google.com/file/d/1Fm6QFibmaVbZRtDt1nzSQmw1OMTTOoch/view?usp=sharing" target="_blank">Resume</a></li>
         </ul>
       </div>
-      <div className="profile-section">
-        <span><img className="profile-photo" src={profilePhoto} alt="profile-photo" width="112px" height="112px" /></span>
-        <span> <h3 className="profile-title">Raju Gogula</h3></span>
+      <div className="profile-section" id="profileSection">
+        <span><img className="profile-photo" src={profilePhoto} id="profile-photo" alt="profile-photo" width="112px" height="112px" /></span>
+        <span id="profileTitle" className="profileTitle">Raju Gogula</span>
       </div>
     </div>
   );

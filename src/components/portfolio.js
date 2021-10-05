@@ -15,7 +15,7 @@ const PortFolio = (item) => {
   return (
     <div className="row marketing">
        <h4 className="project-title"><b>{item.feed.abbr}</b></h4> 
-      <div class="card project-top">
+      <div className="card project-top">
         <div className="card-container-project">
           {item.feed && item.feed.projects && item.feed.projects.length && item.feed.projects.map((project) => 
             <Projects key={project.name} project={project} />

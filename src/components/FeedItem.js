@@ -12,7 +12,7 @@ const images = {
 const FeedItem = (item) => {
   return (
     <div className="row marketing experience-card">
-      <div class="card">
+      <div className="card">
         <img src={images[item.feed.id]} alt={item.feed.title}/>
         <div class="card-container">
           <h4><b>{item.feed.subtitle}</b></h4> 

@@ -22,6 +22,39 @@ class App extends Component {
     })
   };
 
+  componentDidMount () {
+    window.onscroll = () => {
+      this.scrollFunction()
+    };
+  }
+
+
+  scrollFunction = () => {
+    const isMobile = window.innerWidth < 768;
+    if (!isMobile) {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("profile-photo").style.width = "60px";
+        document.getElementById("profile-photo").style.height = "60px";
+        document.getElementById("header").style.flexDirection = "row-reverse";
+        document.getElementById("header").style.justifyContent = "space-evenly";
+        document.getElementById("nav-section").style.alignItems = "center";
+        document.getElementById("profileTitle").style.fontSize = "12px";
+        document.getElementById("profileSection").style.flexDirection = "row";
+       
+      } else {
+        document.getElementById("profile-photo").style.width = "112px";
+        document.getElementById("profile-photo").style.height = "112px";
+        document.getElementById("header").style.flexDirection = "column";
+        document.getElementById("header").style.justifyContent = "center";
+        document.getElementById("nav-section").style.alignItems = "unset";
+        document.getElementById("profileTitle").style.fontSize = "24px";
+        document.getElementById("profileSection").style.flexDirection = "column";
+        
+      }
+    }
+    
+  }
+
 
   render() {
     return (
