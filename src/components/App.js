@@ -37,8 +37,8 @@ class App extends Component {
         document.getElementById("profile-photo").style.height = "60px";
         document.getElementById("header").style.flexDirection = "row-reverse";
         document.getElementById("header").style.justifyContent = "space-evenly";
-        document.getElementById("nav-section").style.alignItems = "center";
-        document.getElementById("profileTitle").style.fontSize = "12px";
+        //document.getElementById("nav-section").style.alignItems = "center";
+        document.getElementById("profileTitle").style.fontSize = "16px";
         document.getElementById("profileSection").style.flexDirection = "row";
        
       } else {
@@ -46,10 +46,24 @@ class App extends Component {
         document.getElementById("profile-photo").style.height = "112px";
         document.getElementById("header").style.flexDirection = "column";
         document.getElementById("header").style.justifyContent = "center";
-        document.getElementById("nav-section").style.alignItems = "unset";
+        //document.getElementById("nav-section").style.alignItems = "unset";
         document.getElementById("profileTitle").style.fontSize = "24px";
         document.getElementById("profileSection").style.flexDirection = "column";
         
+      }
+    } else {
+      if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+        document.getElementById("profile-photo").style.display = "none";
+        document.getElementById("nav-section").style.display = "none";
+        document.getElementById("profileTitle").style.marginTop = "4px";
+        // document.getElementById("header").style.borderLeft = "darkorange solid 8px";
+        // document.getElementById("header").style.borderRight = "darkorange solid 8px";
+      } else {
+        document.getElementById("profile-photo").style.display = "inline";
+        document.getElementById("nav-section").style.display = "flex";
+        document.getElementById("profileTitle").style.marginTop = "unset";
+        // document.getElementById("header").style.borderLeft = "unset";
+        // document.getElementById("header").style.borderRight = "unset";
       }
     }
     
