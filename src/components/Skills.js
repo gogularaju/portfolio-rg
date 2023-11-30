@@ -1,7 +1,7 @@
 import React from 'react';
 
-const skillsData = ['JavaScript', 'TypeScript', 'Node Js', 'React Js', 'Angular', 
-        'HTML5', 'CSS3', 'JEST', 'Enzyme', 'React Testing Library']
+const skillsData = ['Java', 'Node Js', 'JavaScript', 'TypeScript', 'React Js', 'Angular', 'Express JS', 'MongoDB', 'Sass', 'PostCSS',
+        'HTML5', 'CSS3', 'JEST', 'Enzyme', 'React Testing Library', 'Cucumber JS', 'Playwright JS', 'CanJS']
 
 const Skills = () => {
   return (

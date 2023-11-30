@@ -1,18 +1,35 @@
 [
   {
     "id": 1,
+    "title": "Apple Inc",
+    "abbr": "Apple",
+    "link": "",
+    "subtitle": "Software Engineer",
+    "url": "https://www.apple.com",
+    "duration": "January 2022 - Present",
+    "width": "259px",
+    "height": "194px",
+    "description": "Engineer"
+  },
+  {
+    "id": 2,
     "title": "Gap Inc",
     "abbr": "GAP",
     "link": "",
     "subtitle": "Senior Software Engineer",
     "url": "https://www.gapinc.com/en-us/",
-    "duration": "July 2021 - Present",
+    "duration": "July 2021 - January 2022",
     "width": "259px",
     "height": "194px",
-    "description": "Front End Development | Web Developer | UI Developer"
+    "description": "Front End Development | Web Developer | UI Developer",
+    "projects": [{
+      "name": "Gap Inc",
+      "url": "https://www.gapinc.com/en-us/",
+      "description": "I've been instrumental in crafting the pivotal component of any e-commerce platform—the checkout process. Specifically, I played a key role in enhancing the Gap Inc. checkout product feature, streamlining the customer's journey through modules such as billing address, shipping address, payment details, delivery dates, product information, user information, and reward redemption. My contributions extended to developing a centralized checkout solution encompassing renowned brands like Gap, Athleta, Banana Republic, and Old Navy within the Gap Inc. umbrella.Utilizing the builder design pattern, I meticulously structured the product feature for optimal efficiency. Additionally, I fortified the web application's security by implementing a proxy server using NodeJS. This multifaceted approach not only ensures a seamless checkout experience but also prioritizes the confidentiality and protection of user data."
+    }]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Development Bank of Singapore (DBS)",
     "link": "",
     "abbr": "DBS",
@@ -23,15 +40,15 @@
     "projects": [{
       "name": "DBS Internet Banking Taiwan",
       "url": "https://internet-banking.dbs.com.tw/digitw/",
-      "description": "Building an internet banking application for DBS Taiwan. Working on UI Components, Micro Front Ends (MFE’s), which is to create reusable components using React Js with Typescript.Working on core features of banking like Fund Transfer, Payee Management, Foreign Exchange, Remittance, Scheduled/Recurring transfer, Loan Payment, Transaction History, Investments, Forgot Password , Forgot UID, Register, Price Alert, Account Summary"
+      "description": "Developing a cutting-edge internet banking application for DBS Taiwan has been a significant part of my professional journey. My focus lies in the intricacies of UI components and Micro Front Ends (MFE's), where I leverage React.js with Typescript to create reusable and efficient components. Within the realm of core banking features, I actively contribute to areas such as Fund Transfer, Payee Management, Foreign Exchange, Remittance, Scheduled/Recurring Transfers, Loan Payments, Transaction History, Investments, as well as functionalities like Forgot Password, Forgot UID, Register, Price Alert, and Account Summary. This dynamic role allows me to engage with a diverse range of tasks, contributing to the seamless and secure functionality of the banking application"
     },{
       "name": "DBS Internet Banking Indonesia",
       "url": "https://secure.id.dbsdigibank.com/cconboarding",
-      "description": "Building a joyful customer journey using credit card on-boarding for digital banking of Indonesia.Creating an Adobe Analytics framework to achieve digital marketing solutions and guiding the team on usage of the framework."
+      "description": "Dedicated to sculpting a delightful customer journey, I'm actively involved in revolutionizing credit card onboarding for digital banking in Indonesia. My role extends beyond development as I craft an Adobe Analytics framework, strategically aligning digital marketing solutions with the overarching objectives. Additionally, I play a pivotal role in guiding and empowering the team on the adept usage of this framework, ensuring a cohesive and data-driven approach to enhance the digital banking experience for our customers."
     }]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Tata Consultancy Services (TCS)",
     "link": "",
     "abbr": "TCS",
@@ -42,11 +59,11 @@
     "projects": [{
       "name": "Kaiser Permanente",
       "url": "https://scpmgphysiciancareers.com/",
-      "description": "Developing the responsive web applications meant for physicians for auditing the medical record numbers using JavaScript frameworks like Angular Js and React JS with Html5,CSS3,Bootstrap"
+      "description": "Engaged in the development of responsive web applications tailored for physicians, my expertise lies in auditing medical record numbers. I harness the power of JavaScript frameworks, specifically AngularJS and ReactJS, complemented by Html5, CSS3, and Bootstrap to create dynamic and user-friendly interfaces. This role allows me to merge technical proficiency with a healthcare-centric focus, ensuring the seamless functionality of applications crucial for medical record audits in a responsive and efficient manner"
     },{
       "name": "McKesson Corporation",
       "url": "https://mms.mckesson.com/portal/login?utm_campaign=mck+customer+login&utm_source=McKesson.com&utm_medium=referral",
-      "description": "Developing responsive web application meant for pharmacists using JavaScript framework like Angular Js with Html5,CSS3,Bootstrap"
+      "description": "I am actively involved in the development of a responsive web application designed specifically for pharmacists. Leveraging the capabilities of the JavaScript framework AngularJS, along with the versatile trio of Html5, CSS3, and Bootstrap, I ensure the creation of an intuitive and adaptive user interface. This role combines my technical proficiency with a focus on addressing the unique needs of pharmacists, providing them with a seamlessly responsive web application for enhanced workflow and efficiency."
     }]
   }
 ]
