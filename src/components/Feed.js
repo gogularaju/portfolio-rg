@@ -5,6 +5,7 @@ import Skills from './Skills';
 import PortFolio from './portfolio';
 
 const Feed = (props) => {
+  console.log(props)
   return (
     <div>
       <div className="feed-container-about" id="aboutId">
